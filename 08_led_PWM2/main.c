@@ -79,9 +79,8 @@ void pins_init(void)
 	PortInit.PORT_Pin = PORT_Pin_2;
 	//инициализация порта С заданными параметрами
 	PORT_Init(MDR_PORTC, &PortInit);
-
 	//Инициализация порта кнопки RIGHT (B6) на вход
-	// направление передачи данных = вход
+	// направление передачи данных = вхо
 	PortInit.PORT_OE = PORT_OE_IN;
 	// режим работы вывода порта = Порт
 	PortInit.PORT_FUNC = PORT_FUNC_PORT;
@@ -94,7 +93,6 @@ void pins_init(void)
 	//инициализация порта С заданными параметрами
 	PORT_Init(MDR_PORTB, &PortInit);
 	//бесконечный цикл
-
 }
 
 void timer_init(void)
