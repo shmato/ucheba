@@ -11,7 +11,6 @@
 #include "stdio.h"
 #define delay(T) for(i = T; i > 0; i--)
 int i;
-
 bool conInProgress;
 unsigned int rawResult;
 unsigned char channel;
