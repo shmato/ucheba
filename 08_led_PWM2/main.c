@@ -19,7 +19,6 @@ uint16_t VAL;
 
 void pins_init(void);
 void timer_init(void);
-
 int main()
 {
 	pins_init();
@@ -48,7 +47,6 @@ int main()
 
 	}
 }
-
 void pins_init(void)
 {
 	RST_CLK_PCLKcmd(
